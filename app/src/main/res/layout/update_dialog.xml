@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.Compat.Notification.Title"
+        android:background="@android:color/holo_blue_light"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textColor="#ffff"
+        android:text="Update data" />
+
+    <EditText
+        android:layout_margin="5dp"
+        android:id="@+id/name"
+        android:hint="Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_margin="5dp"
+        android:id="@+id/email"
+        android:hint="Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_margin="5dp"
+        android:id="@+id/phone"
+        android:hint="Phone No"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+    <EditText
+        android:layout_margin="5dp"
+        android:id="@+id/dob"
+        android:hint="Dob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/update_btn"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:layout_margin="10dp"
+        android:background="@color/cardview_light_background"
+        android:text="Update"
+        android:textColor="#ffff"/>
+
+</LinearLayout>
